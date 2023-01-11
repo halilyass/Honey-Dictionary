@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4CBA922966BFDB00F7661A /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CBA912966BFDB00F7661A /* AddController.swift */; };
+		3F4CBA942966EFA000F7661A /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CBA932966EFA000F7661A /* Categories.swift */; };
+		3F4CBA96296706FA00F7661A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CBA95296706FA00F7661A /* Constants.swift */; };
+		3F4CBA9829670AE800F7661A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CBA9729670AE800F7661A /* HomeCell.swift */; };
+		3F4CBA9A29670C2C00F7661A /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CBA9929670C2C00F7661A /* Idea.swift */; };
+		3F79E466296E02CC0019F99A /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79E465296E02CC0019F99A /* Like.swift */; };
 		3F8CE63B2965BF8A00789810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CE63A2965BF8A00789810 /* AppDelegate.swift */; };
 		3F8CE63D2965BF8A00789810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CE63C2965BF8A00789810 /* SceneDelegate.swift */; };
-		3F8CE63F2965BF8A00789810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CE63E2965BF8A00789810 /* ViewController.swift */; };
+		3F8CE63F2965BF8A00789810 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CE63E2965BF8A00789810 /* HomeController.swift */; };
 		3F8CE6422965BF8A00789810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CE6402965BF8A00789810 /* Main.storyboard */; };
 		3F8CE6442965BF8B00789810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CE6432965BF8B00789810 /* Assets.xcassets */; };
 		3F8CE6472965BF8B00789810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CE6452965BF8B00789810 /* LaunchScreen.storyboard */; };
+		3F8CE64F2965C39100789810 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CE64E2965C39100789810 /* GoogleService-Info.plist */; };
+		3F8ECCA1296C11BA00CD3278 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ECCA0296C11BA00CD3278 /* CommentController.swift */; };
+		3F8ECCA3296C167600CD3278 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ECCA2296C167600CD3278 /* CommentCell.swift */; };
+		3F8ECCA5296C2D6C00CD3278 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ECCA4296C2D6C00CD3278 /* Comment.swift */; };
+		3FA5426E296C58DD008029F1 /* ConfigureKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5426D296C58DD008029F1 /* ConfigureKeyboard.swift */; };
+		3FCB0BFB296D97C500352C70 /* EditCommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB0BFA296D97C500352C70 /* EditCommentController.swift */; };
+		3FEAB63C2968615B00D44C10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB63B2968615B00D44C10 /* LoginViewController.swift */; };
+		3FEAB63E2968650A00D44C10 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAB63D2968650A00D44C10 /* SignUpController.swift */; };
+		AF32212BD70AA99682139ADA /* Pods_Honey_Dictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A2DF2FE7D8CEEB13EA473 /* Pods_Honey_Dictionary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4CBA912966BFDB00F7661A /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		3F4CBA932966EFA000F7661A /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		3F4CBA95296706FA00F7661A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3F4CBA9729670AE800F7661A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3F4CBA9929670C2C00F7661A /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
+		3F79E465296E02CC0019F99A /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		3F8CE6372965BF8A00789810 /* Honey-Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honey-Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8CE63A2965BF8A00789810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8CE63C2965BF8A00789810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F8CE63E2965BF8A00789810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8CE63E2965BF8A00789810 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		3F8CE6412965BF8A00789810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8CE6432965BF8B00789810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8CE6462965BF8B00789810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8CE6482965BF8B00789810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8CE64E2965C39100789810 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F8ECCA0296C11BA00CD3278 /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		3F8ECCA2296C167600CD3278 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		3F8ECCA4296C2D6C00CD3278 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3FA5426D296C58DD008029F1 /* ConfigureKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureKeyboard.swift; sourceTree = "<group>"; };
+		3FCB0BFA296D97C500352C70 /* EditCommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCommentController.swift; sourceTree = "<group>"; };
+		3FEAB63B2968615B00D44C10 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FEAB63D2968650A00D44C10 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		811A2DF2FE7D8CEEB13EA473 /* Pods_Honey_Dictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Honey_Dictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66EF36905434E298E5E3DA7 /* Pods-Honey-Dictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honey-Dictionary.debug.xcconfig"; path = "Target Support Files/Pods-Honey-Dictionary/Pods-Honey-Dictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BD4D68A605911A71F14424 /* Pods-Honey-Dictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honey-Dictionary.release.xcconfig"; path = "Target Support Files/Pods-Honey-Dictionary/Pods-Honey-Dictionary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF32212BD70AA99682139ADA /* Pods_Honey_Dictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6DF832373078B4FF024194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				811A2DF2FE7D8CEEB13EA473 /* Pods_Honey_Dictionary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4CBA8E2966BF7900F7661A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F8CE63E2965BF8A00789810 /* HomeController.swift */,
+				3F4CBA912966BFDB00F7661A /* AddController.swift */,
+				3FEAB63B2968615B00D44C10 /* LoginViewController.swift */,
+				3FEAB63D2968650A00D44C10 /* SignUpController.swift */,
+				3F8ECCA0296C11BA00CD3278 /* CommentController.swift */,
+				3FCB0BFA296D97C500352C70 /* EditCommentController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F4CBA8F2966BF8000F7661A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F4CBA9729670AE800F7661A /* HomeCell.swift */,
+				3F8ECCA2296C167600CD3278 /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F4CBA902966BF8500F7661A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F4CBA932966EFA000F7661A /* Categories.swift */,
+				3F4CBA9929670C2C00F7661A /* Idea.swift */,
+				3F8ECCA4296C2D6C00CD3278 /* Comment.swift */,
+				3F79E465296E02CC0019F99A /* Like.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3F8CE62E2965BF8A00789810 = {
 			isa = PBXGroup;
 			children = (
 				3F8CE6392965BF8A00789810 /* Honey-Dictionary */,
 				3F8CE6382965BF8A00789810 /* Products */,
+				AE32DB522E95C0BB28806060 /* Pods */,
+				1C6DF832373078B4FF024194 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +132,37 @@
 		3F8CE6392965BF8A00789810 /* Honey-Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				3F8ECCA6296C586B00CD3278 /* Extensions */,
+				3F4CBA902966BF8500F7661A /* Model */,
+				3F4CBA8F2966BF8000F7661A /* View */,
+				3F4CBA8E2966BF7900F7661A /* Controller */,
 				3F8CE63A2965BF8A00789810 /* AppDelegate.swift */,
 				3F8CE63C2965BF8A00789810 /* SceneDelegate.swift */,
-				3F8CE63E2965BF8A00789810 /* ViewController.swift */,
 				3F8CE6402965BF8A00789810 /* Main.storyboard */,
 				3F8CE6432965BF8B00789810 /* Assets.xcassets */,
 				3F8CE6452965BF8B00789810 /* LaunchScreen.storyboard */,
 				3F8CE6482965BF8B00789810 /* Info.plist */,
+				3F8CE64E2965C39100789810 /* GoogleService-Info.plist */,
 			);
 			path = "Honey-Dictionary";
+			sourceTree = "<group>";
+		};
+		3F8ECCA6296C586B00CD3278 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3F4CBA95296706FA00F7661A /* Constants.swift */,
+				3FA5426D296C58DD008029F1 /* ConfigureKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE32DB522E95C0BB28806060 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A66EF36905434E298E5E3DA7 /* Pods-Honey-Dictionary.debug.xcconfig */,
+				A8BD4D68A605911A71F14424 /* Pods-Honey-Dictionary.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F8CE64B2965BF8B00789810 /* Build configuration list for PBXNativeTarget "Honey-Dictionary" */;
 			buildPhases = (
+				CBE47E42F8C8A9AEEE24EB98 /* [CP] Check Pods Manifest.lock */,
 				3F8CE6332965BF8A00789810 /* Sources */,
 				3F8CE6342965BF8A00789810 /* Frameworks */,
 				3F8CE6352965BF8A00789810 /* Resources */,
+				9F6E3A042C6B2A04BAD57B18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8CE6472965BF8B00789810 /* LaunchScreen.storyboard in Resources */,
+				3F8CE64F2965C39100789810 /* GoogleService-Info.plist in Resources */,
 				3F8CE6442965BF8B00789810 /* Assets.xcassets in Resources */,
 				3F8CE6422965BF8A00789810 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +234,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F6E3A042C6B2A04BAD57B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Honey-Dictionary/Pods-Honey-Dictionary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Honey-Dictionary/Pods-Honey-Dictionary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Honey-Dictionary/Pods-Honey-Dictionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE47E42F8C8A9AEEE24EB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Honey-Dictionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F8CE6332965BF8A00789810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8CE63F2965BF8A00789810 /* ViewController.swift in Sources */,
+				3FEAB63C2968615B00D44C10 /* LoginViewController.swift in Sources */,
+				3F8ECCA1296C11BA00CD3278 /* CommentController.swift in Sources */,
+				3F4CBA9A29670C2C00F7661A /* Idea.swift in Sources */,
+				3F8CE63F2965BF8A00789810 /* HomeController.swift in Sources */,
+				3F4CBA9829670AE800F7661A /* HomeCell.swift in Sources */,
 				3F8CE63B2965BF8A00789810 /* AppDelegate.swift in Sources */,
+				3FEAB63E2968650A00D44C10 /* SignUpController.swift in Sources */,
+				3F4CBA942966EFA000F7661A /* Categories.swift in Sources */,
 				3F8CE63D2965BF8A00789810 /* SceneDelegate.swift in Sources */,
+				3F4CBA922966BFDB00F7661A /* AddController.swift in Sources */,
+				3F79E466296E02CC0019F99A /* Like.swift in Sources */,
+				3F8ECCA5296C2D6C00CD3278 /* Comment.swift in Sources */,
+				3FCB0BFB296D97C500352C70 /* EditCommentController.swift in Sources */,
+				3FA5426E296C58DD008029F1 /* ConfigureKeyboard.swift in Sources */,
+				3F4CBA96296706FA00F7661A /* Constants.swift in Sources */,
+				3F8ECCA3296C167600CD3278 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +438,7 @@
 		};
 		3F8CE64C2965BF8B00789810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66EF36905434E298E5E3DA7 /* Pods-Honey-Dictionary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +450,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +460,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.halilyas.Honey-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3F8CE64D2965BF8B00789810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BD4D68A605911A71F14424 /* Pods-Honey-Dictionary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +483,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +493,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.halilyas.Honey-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
